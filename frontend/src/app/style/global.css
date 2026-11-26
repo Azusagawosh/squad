@@ -1,1 +1,12 @@
 @import 'tailwindcss';
+
+@layer components {
+	.form {
+		@apply flex flex-col gap-5;
+	}
+}
+
+html {
+	background-color: rgb(14, 14, 14);
+	color: white;
+}
